@@ -1,2 +1,2 @@
-name     = "devopsthehardway"
+name     = "devopsthehardway11"
 location = "uksouth"
