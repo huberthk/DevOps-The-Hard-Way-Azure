@@ -1,7 +1,9 @@
 #!/bin/sh
+az login --tenant hubikudi.onmicrosoft.com
+az account set --subscription "FTA CXP HKUDYBA 
 
-RESOURCE_GROUP_NAME="devopstamops-rg"
-STORAGE_ACCOUNT_NAME="devopstamopssa"
+RESOURCE_GROUP_NAME="devopshardway-rg"
+STORAGE_ACCOUNT_NAME="devopshardway11sa"
 
 # Create Resource Group
 az group create -l uksouth -n $RESOURCE_GROUP_NAME
